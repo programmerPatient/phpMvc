@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Vendor/marry/marry.php" line="82" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="de3c72ab-fcd2-482b-92d0-17f745f80a07" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Temp/~boot.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vendor/marry/Config/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vendor/marry/Lib/Core/Application.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vendor/marry/Lib/Core/BaseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vendor/marry/Lib/Core/Log.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vendor/marry/Lib/Function/function.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vendor/marry/marry.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Config/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Controller/IndexController.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vendor/marry/Data/Tpl/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vendor/marry/Data/Tpl/halt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vendor/marry/Data/Tpl/notice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vendor/marry/Data/Tpl/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/View/index/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/static/js/jquery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Application.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Request.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/IndexController.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/PrivilegeController.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/~boot.php" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/~boot.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vendor/marry/Config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/Vendor/marry/Config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vendor/marry/Lib/Core/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/Vendor/marry/Lib/Core/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vendor/marry/Lib/Core/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Vendor/marry/Lib/Core/BaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vendor/marry/Lib/Core/Log.php" beforeDir="false" afterPath="$PROJECT_DIR$/Vendor/marry/Lib/Core/Log.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vendor/marry/Lib/Function/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/Vendor/marry/Lib/Function/function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vendor/marry/marry.php" beforeDir="false" afterPath="$PROJECT_DIR$/Vendor/marry/marry.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Config/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controller/IndexController.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,28 +79,38 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="13" />
+          <entry key="html" value="9" />
+          <entry key="js" value="3" />
+          <entry key="log" value="2" />
+          <entry key="php" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="13" />
+          <entry key="HTML" value="9" />
+          <entry key="JavaScript" value="3" />
+          <entry key="PHP" value="34" />
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="php" value="4393" />
+          <entry key="html" value="710" />
+          <entry key="php" value="8275" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="4393" />
+          <entry key="HTML" value="710" />
+          <entry key="PHP" value="8275" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -114,43 +127,7 @@
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="217">
-              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Temp/~boot.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vendor/marry/marry.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vendor/marry/Lib/Core/Log.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="15" column="108" selection-start-line="15" selection-start-column="108" selection-end-line="15" selection-end-column="108" />
+              <caret line="12" column="2" selection-start-line="12" selection-end-line="12" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -158,17 +135,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vendor/marry/Lib/Core/Application.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="381">
+              <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vendor/marry/Lib/Core/BaseController.php">
+        <entry file="file://$PROJECT_DIR$/Common/Config/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="93">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vendor/marry/Lib/Function/function.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vendor/marry/marry.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -177,25 +172,34 @@
         <entry file="file://$PROJECT_DIR$/app/Controller/IndexController.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="124">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vendor/marry/Config/config.php">
+        <entry file="file://$PROJECT_DIR$/public/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="279">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vendor/marry/Lib/Function/function.php">
+        <entry file="file://$PROJECT_DIR$/Vendor/marry/Lib/Core/BaseController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+            <state relative-caret-position="155">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -205,6 +209,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>APP_PATH</find>
+      <find>p(</find>
+      <find>__PUBLIC__</find>
+      <find>__TPL__</find>
     </findStrings>
     <replaceStrings>
       <replace>KERNEL_PATH</replace>
@@ -228,17 +235,22 @@
         <option value="$PROJECT_DIR$/config/config.php" />
         <option value="$PROJECT_DIR$/Vendor/marry/Lib/marry.php" />
         <option value="$PROJECT_DIR$/Vendor/marry/index.php" />
-        <option value="$PROJECT_DIR$/app/Config/config.php" />
-        <option value="$PROJECT_DIR$/Vendor/marry/Lib/Function/function.php" />
-        <option value="$PROJECT_DIR$/Vendor/marry/Config/config.php" />
-        <option value="$PROJECT_DIR$/Vendor/marry/Lib/Core/BaseController.php" />
-        <option value="$PROJECT_DIR$/app/Controller/IndexController.class.php" />
-        <option value="$PROJECT_DIR$/public/index.php" />
-        <option value="$PROJECT_DIR$/public/admin.php" />
-        <option value="$PROJECT_DIR$/Vendor/marry/Lib/Core/Application.php" />
+        <option value="$PROJECT_DIR$/app/Public/success.html" />
         <option value="$PROJECT_DIR$/Vendor/marry/Lib/Core/Log.php" />
-        <option value="$PROJECT_DIR$/Vendor/marry/marry.php" />
+        <option value="$PROJECT_DIR$/Vendor/marry/Config/config.php" />
+        <option value="$PROJECT_DIR$/Vendor/marry/Data/Tpl/halt.html" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/Vendor/marry/Lib/Function/function.php" />
+        <option value="$PROJECT_DIR$/app/View/index/index.html.php" />
         <option value="$PROJECT_DIR$/Temp/~boot.php" />
+        <option value="$PROJECT_DIR$/Vendor/marry/Lib/Core/BaseController.php" />
+        <option value="$PROJECT_DIR$/app/View/index/index.html" />
+        <option value="$PROJECT_DIR$/public/admin.php" />
+        <option value="$PROJECT_DIR$/Vendor/marry/marry.php" />
+        <option value="$PROJECT_DIR$/Vendor/marry/Lib/Core/Application.php" />
+        <option value="$PROJECT_DIR$/Common/Config/config.php" />
+        <option value="$PROJECT_DIR$/app/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/app/Config/config.php" />
       </list>
     </option>
   </component>
@@ -252,10 +264,10 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1001" />
-    <option name="y" value="-5" />
-    <option name="width" value="887" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="957" />
+    <option name="y" value="3" />
+    <option name="width" value="957" />
     <option name="height" value="1061" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -264,7 +276,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -281,12 +292,24 @@
               <item name="php-mvc" type="b2602c69:ProjectViewProjectNode" />
               <item name="php-mvc" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php-mvc" type="b2602c69:ProjectViewProjectNode" />
               <item name="php-mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php-mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php-mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="Common" type="462c0819:PsiDirectoryNode" />
+              <item name="Config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php-mvc" type="b2602c69:ProjectViewProjectNode" />
@@ -297,6 +320,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,6 +332,11 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\学习\php-mvc\Vendor\marry" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\学习\php-mvc\app\Tpl\js" />
+      <recent name="C:\Users\Administrator\Desktop\学习\php-mvc\public\static\js" />
+      <recent name="C:\Users\Administrator\Desktop\学习\php-mvc\Vendor\marry\Data\Tpl" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -366,39 +395,65 @@
       <workItem from="1600054470411" duration="3806000" />
       <workItem from="1600327794314" duration="2128000" />
       <workItem from="1600409289766" duration="10749000" />
+      <workItem from="1600650040666" duration="4026000" />
+      <workItem from="1600655064832" duration="13176000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32582000" />
+    <option name="totallyTimeSpent" value="49784000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1001" y="-5" width="887" height="1061" extended-state="0" />
+    <frame x="957" y="3" width="957" height="1061" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31383577" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="调试" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.0" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.33110368" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292683" />
-      <window_info anchor="bottom" id="File Transfer" order="10" weight="0.3292683" />
+      <window_info anchor="bottom" id="File Transfer" order="10" weight="0.32998884" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="12" weight="0.3292683" />
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.35254988" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.32998884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17146018" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="调试" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.33110368" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292683" />
+      <window_info anchor="bottom" id="File Transfer" order="10" weight="0.32998884" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="12" weight="0.3292683" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.35254988" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.32998884" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -415,94 +470,135 @@
     <entry file="file://$PROJECT_DIR$/Core/Application.class.php" />
     <entry file="file://$PROJECT_DIR$/controller/PrivilegeController.class.php" />
     <entry file="file://$PROJECT_DIR$/controller/IndexController.class.php" />
-    <entry file="file://$PROJECT_DIR$/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/config/config.php" />
+    <entry file="file://$PROJECT_DIR$/Vendor/marry/index.php" />
+    <entry file="file://$PROJECT_DIR$/Vendor/marry/Data/Tpl/error.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vendor/marry/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Vendor/marry/Data/Tpl/notice.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/config.php">
+    <entry file="file://$PROJECT_DIR$/app/Public/error.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Public/success.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vendor/marry/Lib/Function/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vendor/marry/Config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vendor/marry/Lib/Core/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <caret line="9" selection-start-line="8" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vendor/marry/Lib/Core/Log.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="15" column="108" selection-start-line="15" selection-start-column="108" selection-end-line="15" selection-end-column="108" />
+        <state relative-caret-position="403">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vendor/marry/Lib/Core/Application.php">
+    <entry file="file://$PROJECT_DIR$/Vendor/marry/Config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="724">
+          <caret line="30" column="47" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vendor/marry/marry.php">
+    <entry file="file://$PROJECT_DIR$/Vendor/marry/Data/Tpl/halt.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="259">
+          <caret line="81" column="49" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/Log/2020-09-21.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Temp/~boot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="179" column="5" lean-forward="true" selection-start-line="179" selection-start-column="5" selection-end-line="179" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#pre#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/static/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Tpl/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vendor/marry/Lib/Core/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="21" />
+          <caret line="12" column="2" selection-start-line="12" selection-end-line="12" selection-end-column="85" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Temp/~boot.php">
+    <entry file="file://$PROJECT_DIR$/public/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="279">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vendor/marry/marry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vendor/marry/Lib/Core/Application.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Common/Config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vendor/marry/Lib/Function/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="82" column="9" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>

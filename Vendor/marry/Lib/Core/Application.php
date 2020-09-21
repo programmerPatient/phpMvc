@@ -21,7 +21,9 @@ final class Application
     {
         $c = isset($_GET[C('VAR_CONTROLLER')]) ? $_GET[C('VAR_CONTROLLER')] : 'Index';
         $a = isset($_GET[C('VAR_ACTION')]) ? $_GET[C('VAR_ACTION')] : 'index';
+        define('CONTROLLER',$c);
         $c .= 'Controller';
+        define('ACTION',$a);
         $obj = new $c();
         $obj->$a();
     }
@@ -60,6 +62,17 @@ st;
     {
         //加载配置项
         C(include CONFIG_PATH . '/config.php');
+        //加载公共配置项
+        $commonPath = COMMON_CONFIG_PATH . '/config.php';
+        $commonConfig = <<<str
+<?php 
+return array(
+    //配置项 => 配置值
+);
+str;
+        is_file($commonPath) || file_put_contents($commonPath,$commonConfig);
+        C(include $commonPath);
+
         $userConfPath = APP_CONFIG_PATH . '/config.php';
         $userConfig = <<<str
 <?php 
@@ -88,10 +101,13 @@ str;
         define('__APP__',$path);
         define('__ROOT__',dirname(dirname(__APP__)));
         if(empty(APP_NAME)){
-            define('__TPL__',__ROOT__ . '/app/Tpl');
+            define('__TPL__',__ROOT__ . '/app/Public');
         }else{
-            define('__TPL__',__ROOT__ . '/app/' . APP_NAME . '/Tpl');
+            define('__TPL__',__ROOT__ . '/app/' . APP_NAME . '/Public');
         }
-        define('__PUBLIC__', __TPL__ . '/Public');
+//        define('__PUBLIC__', __TPL__ . '/Public');
+        //公共文件路径
+        define('ROOT_PUBLIC_PATH', __ROOT__ . '/Public');
     }
 }
+?>

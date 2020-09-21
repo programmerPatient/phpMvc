@@ -19,5 +19,14 @@ return [
     'VAR_CONTROLLER' => 'c',
 
     //控制器方法名
-    'var_ACTION' => 'a',
+    'VAR_ACTION' => 'a',
+
+    //日志开启
+    'SAVE_LOG' => true,
+
+    //错误跳转地址
+    'ERROR_URL' => '',
+
+    //错误的提示信息
+    'ERROR_MESSAGE' => '网站出错了，请稍后重试..........',
 ];

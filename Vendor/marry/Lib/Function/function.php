@@ -5,11 +5,73 @@
  * Date: 2020/9/18 0018
  * Time: 下午 3:20
  */
+
+
+function halt($error,$level="error",$type=3,$dest=NULL)
+{
+    if(is_array($error)){
+        Log::write($error['message'],$level,$type,$dest);
+    }else{
+        Log::write($error,$level,$type,$dest);
+    }
+
+    $e = array();
+    if(DEBUG){
+        if(!is_array($error)){
+            $trace = debug_backtrace();
+            $e['message'] = $error;
+            $e['file'] = $trace[0]['file'];
+            $e['line'] = $trace[0]['line'];
+            $e['class'] = isset($trace[0]['class']) ? $trace[0]['class'] : '';
+            $e['function'] = isset($trace[0]['function']) ? $trace[0]['function'] : '';
+            ob_start();
+            debug_print_backtrace();
+            $e['trace'] = htmlspecialchars(ob_get_clean());
+        }else{
+            $e = $error;
+        }
+    }else{
+        if($url = C('ERROR_URL')){
+            go($url);
+        }else{
+            $e['message'] = C('ERROR_MESSAGE');
+        }
+    }
+
+    include DATA_PATH . '/Tpl/halt.html';
+    die;
+
+}
+
+/**
+ * 打印函数
+ * @param $arr
+ */
 function p($arr)
 {
-    echo '<pre>';
-    print_r($arr);
-    echo '<pre>';
+    if(is_bool($arr)){
+        var_dump($arr);
+    }else if(is_null($arr)){
+        var_dump(NULL);
+    }else{
+        echo '<pre style="padding:10px;border-radius:5px;background:#f5f5f5;border:1px solid #ccc;font-size:14px;">' . print_r($arr,true) .'</pre>';
+    }
+}
+
+/**
+ * 跳转函数
+ * @param $url 跳转的地址
+ * @param int $time 跳转的时间
+ * @param $msg 跳转提示
+ */
+function go($url,$time = 0,$msg = ''){
+    if(!headers_sent()){
+        $time == 0 ? header('location:'.$url) : header("refresh:{$time};url={$url}");
+        die($msg);
+    }else{
+        echo "<meta http-equiv='Refresh' content='{$time};URL={$url}'>";
+        if($time) die($msg);
+    }
 }
 
 /**
@@ -39,3 +101,10 @@ function C($var = null, $value = null)
         return $config;
     }
 }
+
+function print_const()
+{
+    $const = get_defined_constants(true);
+    p($const['user']);
+}
+?>

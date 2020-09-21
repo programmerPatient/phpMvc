@@ -13,6 +13,7 @@ class Log
         if(is_null($dest)){
             $dest = LOG_PATH . '/' . date('Y-m-d') . ".log";
         }
-        if(is_dir(LOG_PATH)) error_log("[TIME]:" . date('y-m-d H:i:s' . "{$level}:{$msg}\r\n",$type,$dest));
+        if(is_dir(LOG_PATH)) error_log("[TIME]:" . date('Y-m-d H:i:s') . "{$level}:{$msg}\r\n",$type,$dest);
     }
 }
+?>
