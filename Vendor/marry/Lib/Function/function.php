@@ -102,9 +102,27 @@ function C($var = null, $value = null)
     }
 }
 
+/**
+ * 获取所有常量
+ */
 function print_const()
 {
     $const = get_defined_constants(true);
     p($const['user']);
 }
+
+function M($table)
+{
+    $obj = new Model($table);
+    return $obj;
+}
+
+function K($model)
+{
+    $model = $model . 'Model';
+    return new $model;
+}
+
+
+
 ?>

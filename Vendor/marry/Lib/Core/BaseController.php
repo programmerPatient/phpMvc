@@ -6,13 +6,16 @@
  * Time: 下午 4:37
  */
 
-class BaseController
+class BaseController extends SmartyView
 {
     /*模板参数保存*/
     protected $var = array();
 
     public function __construct()
     {
+        if(C('SMARTY_ON')){
+            parent::__construct();
+        }
         if(method_exists($this,'__init')){
             $this->__init();
         }
@@ -39,21 +42,22 @@ class BaseController
      */
     protected function assign($var,$value=null)
     {
-        if(is_array($var)){
-            foreach($var as $k => $v){
-                $this->var[$k] = $v;
-            }
+        if(C('SMARTY_ON')) {
+            parent::assign($var,$value);
         }else{
-            $this->var[$var] = $value;
+            if(is_array($var)){
+                foreach($var as $k => $v){
+                    $this->var[$k] = $v;
+                }
+            }else{
+                $this->var[$var] = $value;
+            }
         }
+
 
     }
 
-    /**
-     * 控制器模板加载
-     * @param null $tpl
-     */
-    protected function display($tpl = null)
+    protected function get_tpl($tpl)
     {
         if(is_null($tpl)){
             $path = APP_VIEW_PATH . '/' . CONTROLLER .'/' .ACTION . '.html';
@@ -62,9 +66,23 @@ class BaseController
             $tpl = empty($suffix) ? $tpl .'.html' : $tpl;
             $path = APP_VIEW_PATH .'/'.CONTROLLER . '/' .$tpl;
         }
-        extract($this->var);
+        return $path;
+    }
+    /**
+     * 控制器模板加载
+     * @param null $tpl
+     */
+    protected function display($tpl = null)
+    {
+
+        $path = $this->get_tpl($tpl);
         if(!is_file($path)) halt($path.'模板文件不存在！');
-        include $path;
+        if(C('SMARTY_ON')) {
+            parent::display($path);
+        }else{
+            extract($this->var);
+            include $path;
+        }
     }
 }
 ?>

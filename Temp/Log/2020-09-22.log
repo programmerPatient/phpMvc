@@ -1,0 +1,59 @@
+[TIME]:2020-09-22 11:17:00控制器未找到:C:/Users/Administrator/Desktop/学习/php-mvc/app/Controller/llController.class.php
+[TIME]:2020-09-22 11:23:21控制器未找到:C:/Users/Administrator/Desktop/学习/php-mvc/app/Controller/llController.class.php
+[TIME]:2020-09-22 11:23:23控制器未找到:C:/Users/Administrator/Desktop/学习/php-mvc/app/Controller/llController.class.php
+[TIME]:2020-09-22 11:23:42error:login方法不存在
+[TIME]:2020-09-22 11:24:39error:login方法不存在
+[TIME]:2020-09-22 11:25:23error:indexController控制器下的login方法不存在
+[TIME]:2020-09-22 11:34:13error:indexController控制器下的login方法不存在
+[TIME]:2020-09-22 11:59:04error:syntax error, unexpected '}'C:\Users\Administrator\Desktop\学习\php-mvc\app\Controller\IndexController.class.php第6行
+[TIME]:2020-09-22 12:13:31error:数据库连接错误，请检查配置项
+[TIME]:2020-09-22 14:04:31error:Uncaught ArgumentCountError: Too few arguments to function Model::__construct(), 0 passed in C:\Users\Administrator\Desktop\学习\php-mvc\app\Controller\IndexController.class.php on line 5 and exactly 1 expected in C:\Users\Administrator\Desktop\学习\php-mvc\Vendor\marry\Extends\Tool\Model.php:23
+Stack trace:
+#0 C:\Users\Administrator\Desktop\学习\php-mvc\app\Controller\IndexController.class.php(5): Model->__construct()
+#1 C:\Users\Administrator\Desktop\学习\php-mvc\Vendor\marry\Lib\Core\Application.php(68): IndexController->index()
+#2 C:\Users\Administrator\Desktop\学习\php-mvc\Vendor\marry\Lib\Core\Application.php(20): Application::_app_run()
+#3 C:\Users\Administrator\Desktop\学习\php-mvc\Vendor\marry\marry.php(21): Application::run()
+#4 C:\Users\Administrator\Desktop\学习\php-mvc\Vendor\marry\marry.php(124): Marry::run()
+#5 C:\Users\Administrator\Desktop\学习\php-mvc\public\index.php(13): require('C:\\Users\\Admini...')
+#6 {main}
+  thrownC:\Users\Administrator\Desktop\学习\php-mvc\Vendor\marry\Extends\Tool\Model.php第23行
+[TIME]:2020-09-22 14:05:49error:mysql错误：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'selec * from mall_user' at line 1<br/>SQL:selec * from mall_user
+[TIME]:2020-09-22 14:06:05error:mysql错误：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'selec * from mall_user' at line 1<br/>SQL:selec * from mall_user
+[TIME]:2020-09-22 14:06:07error:mysql错误：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'selec * from mall_user' at line 1<br/>SQL:selec * from mall_user
+[TIME]:2020-09-22 14:28:03error:mysql错误：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1<br/>SQL:SELECT username FROM mall_userwhereid = 1
+[TIME]:2020-09-22 14:43:55error:mysql错误：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM mall_user where id = 1' at line 1<br/>SQL:SELECT  FROM mall_user where id = 1
+[TIME]:2020-09-22 14:44:28error:mysql错误：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM mall_user where id = `1`' at line 1<br/>SQL:SELECT  FROM mall_user where id = `1`
+[TIME]:2020-09-22 14:47:32error:mysql错误：Field 'sort' doesn't have a default value<br/>SQL: INSERT INTO cate SET name = 'ss'
+[TIME]:2020-09-22 14:49:17error:mysql错误：Column count doesn't match value count at row 1<br/>SQL: INSERT INTO cate VALUE('ss',2,1)
+[TIME]:2020-09-22 14:50:03error:mysql错误：Column count doesn't match value count at row 1<br/>SQL: INSERT INTO cate VALUES ('ss',2,1)
+[TIME]:2020-09-22 14:51:01error:mysql错误：Column count doesn't match value count at row 1<br/>SQL: INSERT INTO cate VALUES ('ss',`2`,`1`)
+[TIME]:2020-09-22 14:51:16error:mysql错误：Column count doesn't match value count at row 1<br/>SQL: INSERT INTO cate VALUES ('ss',2,1)
+[TIME]:2020-09-22 14:51:16error:mysql错误：Column count doesn't match value count at row 1<br/>SQL: INSERT INTO cate VALUES ('ss',2,1)
+[TIME]:2020-09-22 14:51:18error:mysql错误：Column count doesn't match value count at row 1<br/>SQL: INSERT INTO cate VALUES ('ss',2,1)
+[TIME]:2020-09-22 14:52:48error:mysql错误：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'selec * from cate' at line 1<br/>SQL: selec * from cate
+[TIME]:2020-09-22 14:53:08error:请用query方法发送查询的sql
+[TIME]:2020-09-22 15:02:19error:删除语句必须有where条件
+[TIME]:2020-09-22 15:27:08error:mysql错误：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''sdsdsd'')' at line 1<br/>SQL: INSERT INTO cate(`name`) VALUES ('sdsdsd'')
+[TIME]:2020-09-22 15:28:02error:mysql错误：You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''sdsdsd'')' at line 1<br/>SQL: INSERT INTO cate (`name` ) VALUES ('sdsdsd'')
+[TIME]:2020-09-22 15:41:02error:Uncaught Error: Call to undefined method Model::updete() in C:\Users\Administrator\Desktop\学习\php-mvc\app\Controller\IndexController.class.php:6
+Stack trace:
+#0 C:\Users\Administrator\Desktop\学习\php-mvc\Vendor\marry\Lib\Core\Application.php(68): IndexController->index()
+#1 C:\Users\Administrator\Desktop\学习\php-mvc\Vendor\marry\Lib\Core\Application.php(20): Application::_app_run()
+#2 C:\Users\Administrator\Desktop\学习\php-mvc\Vendor\marry\marry.php(21): Application::run()
+#3 C:\Users\Administrator\Desktop\学习\php-mvc\Vendor\marry\marry.php(124): Marry::run()
+#4 C:\Users\Administrator\Desktop\学习\php-mvc\public\index.php(13): require('C:\\Users\\Admini...')
+#5 {main}
+  thrownC:\Users\Administrator\Desktop\学习\php-mvc\app\Controller\IndexController.class.php第6行
+[TIME]:2020-09-22 15:49:30类未找到:C:/Users/Administrator/Desktop/学习/php-mvc/Vendor/marry/Extends/Tool/Common\model\MessageModel.php
+[TIME]:2020-09-22 15:49:48error:syntax error, unexpected '.', expecting ',' or ';'C:\Users\Administrator\Desktop\学习\php-mvc\app\Controller\IndexController.class.php第2行
+[TIME]:2020-09-22 15:54:05error:Uncaught ArgumentCountError: Too few arguments to function Model::__construct(), 0 passed in C:\Users\Administrator\Desktop\学习\php-mvc\app\Controller\IndexController.class.php on line 5 and exactly 1 expected in C:\Users\Administrator\Desktop\学习\php-mvc\Vendor\marry\Extends\Tool\Model.php:23
+Stack trace:
+#0 C:\Users\Administrator\Desktop\学习\php-mvc\app\Controller\IndexController.class.php(5): Model->__construct()
+#1 C:\Users\Administrator\Desktop\学习\php-mvc\Vendor\marry\Lib\Core\Application.php(68): IndexController->index()
+#2 C:\Users\Administrator\Desktop\学习\php-mvc\Vendor\marry\Lib\Core\Application.php(20): Application::_app_run()
+#3 C:\Users\Administrator\Desktop\学习\php-mvc\Vendor\marry\marry.php(21): Application::run()
+#4 C:\Users\Administrator\Desktop\学习\php-mvc\Vendor\marry\marry.php(124): Marry::run()
+#5 C:\Users\Administrator\Desktop\学习\php-mvc\public\index.php(13): require('C:\\Users\\Admini...')
+#6 {main}
+  thrownC:\Users\Administrator\Desktop\学习\php-mvc\Vendor\marry\Extends\Tool\Model.php第23行
+[TIME]:2020-09-22 16:52:50类未找到:C:/Users/Administrator/Desktop/学习/php-mvc/Vendor/marry/Extends/Tool/Smarty_Internal_Method_Is_Cached.php

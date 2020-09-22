@@ -34,8 +34,12 @@ final class Marry {
         define('CORE_PATH',LIB_PATH . '/Core');
         define('FUNCTION_PATH',LIB_PATH . '/Function');
 
+        define('EXTENDS_PATH',KERNEL_PATH . '/Extends');
+        define('TOOL_PATH',KERNEL_PATH . '/Extends/Tool');
+        define('ORG_PATH',KERNEL_PATH . '/Extends/Org');
         //项目根目录
         define('ROOT_PATH',dirname(dirname(KERNEL_PATH)));
+
 
         //临时目录
         define('TEMP_PATH',ROOT_PATH . '/Temp');
@@ -44,13 +48,19 @@ final class Marry {
 
         if(empty(APP_NAME)){
             define('APP_PATH', ROOT_PATH . '/app');
+            define('APP_COMPILE_PATH',TEMP_PATH . '/Index/Compile');
+            define('APP_CACHE_PATH',TEMP_PATH . '/Index/Cache');
         }else{
             define('APP_PATH', ROOT_PATH . '/app/' . APP_NAME);
+            define('APP_COMPILE_PATH',TEMP_PATH . '/' .APP_NAME .'/Compile');
+            define('APP_CACHE_PATH',TEMP_PATH . '/'. APP_NAME .'/Cache');
         }
         define('APP_CONFIG_PATH',APP_PATH . '/Config');
         define('APP_CONTROLLER_PATH', APP_PATH . '/Controller');
         define('APP_PUBLIC_PATH', APP_PATH . '/Public');
         define('APP_VIEW_PATH', APP_PATH . '/View');
+
+
 
         //创建公共
         define('COMMON_PATH',ROOT_PATH . '/Common');
@@ -88,6 +98,8 @@ final class Marry {
             APP_PUBLIC_PATH,
             APP_VIEW_PATH,
             TEMP_PATH,
+            APP_COMPILE_PATH,
+            APP_CACHE_PATH,
             LOG_PATH,
         );
         foreach($arr as $v){
@@ -105,8 +117,11 @@ final class Marry {
         $fileArr = array(
             CORE_PATH . '/Log.php',
             FUNCTION_PATH . '/function.php',
+            ORG_PATH . '/Smarty/Smarty.class.php',
+            CORE_PATH . '/SmartyView.php',
             CORE_PATH . '/BaseController.php',
             CORE_PATH . '/Application.php',
+
         );
         $str = '';
         foreach($fileArr as $v){
