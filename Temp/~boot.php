@@ -1692,7 +1692,7 @@ class BaseController extends SmartyView
  * Date: 2020/9/18 0018
  * Time: 下午 3:22
  */
-
+//namespace Marry\Lib\Core;
 final class Application
 {
     public static function run()

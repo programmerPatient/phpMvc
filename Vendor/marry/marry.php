@@ -1,4 +1,5 @@
 <?php
+namespace Marry;
 /**
  * Created by PhpStorm.
  * User: Administrator
@@ -18,7 +19,7 @@ final class Marry {
             require TEMP_PATH . '/~boot.php';
             error_reporting(0);
         }
-        Application::run();
+        \Application::run();
     }
 
     /**
@@ -121,7 +122,6 @@ final class Marry {
             CORE_PATH . '/SmartyView.php',
             CORE_PATH . '/BaseController.php',
             CORE_PATH . '/Application.php',
-
         );
         $str = '';
         foreach($fileArr as $v){
@@ -132,4 +132,3 @@ final class Marry {
         file_put_contents(TEMP_PATH.'/~boot.php',$str) || die('access not allow');
     }
 }
-Marry::run();

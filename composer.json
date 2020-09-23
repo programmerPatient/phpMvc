@@ -1,0 +1,16 @@
+{
+  "name": "Marry",
+  "description": "Marry framework",
+  "keywords": [
+    "php"
+  ],
+  "autoload": {
+    "psr-4": {
+       "Marry\\":"Vendor/marry"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-swoole":">=4.0"
+  }
+}

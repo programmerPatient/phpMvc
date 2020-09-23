@@ -9,5 +9,10 @@ class IndexController extends BaseController {
         $this->display();
     }
 
+    public function text()
+    {
+        echo 'sss';
+    }
+
 
 }

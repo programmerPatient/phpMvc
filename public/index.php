@@ -10,4 +10,6 @@ define('DEBUG',true);
 
 define('APP_NAME','');
 //载入核心类入口文件
-require dirname(dirname(str_replace('\\','/',__FILE__))) . "/Vendor/marry/marry.php";
+//require dirname(dirname(str_replace('\\','/',__FILE__))) . "/Vendor/marry/marry.php";
+require dirname(__DIR__) . '/Vendor/autoload.php';
+\Marry\Marry::run();
